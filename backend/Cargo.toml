@@ -1,0 +1,11 @@
+[package]
+name        = "sapling-backend"
+version     = "0.1.0"
+edition     = "2024"
+description = "Sapling – family chore & reward app backend"
+
+[[bin]]
+name = "sapling-backend"
+path = "src/main.rs"
+
+[dependencies]

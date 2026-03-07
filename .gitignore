@@ -1,0 +1,58 @@
+# ── Rust / Cargo ──────────────────────────────
+target/
+**/*.rs.bk
+
+# ── Flutter / Dart ────────────────────────────
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/build/
+
+# Android
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/captures/
+mobile/android/key.properties
+mobile/android/**/*.jks
+mobile/android/app/debug/
+mobile/android/app/profile/
+mobile/android/app/release/
+
+# iOS
+mobile/ios/Flutter/Flutter.framework
+mobile/ios/Flutter/Flutter.podspec
+mobile/ios/Flutter/.last_build_id
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+mobile/ios/Runner.xcworkspace/xcuserdata/
+mobile/ios/Flutter/App.framework
+mobile/ios/Flutter/ephemeral/
+mobile/ios/Flutter/flutter_export_environment.sh
+
+# ── Docker / Infra ────────────────────────────
+infra/.env
+infra/postgres-data/
+
+# ── Environment / Secrets ────────────────────
+.env
+.env.local
+*.pem
+*.key
+secrets/
+
+# ── Editor / OS ───────────────────────────────
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# ── Logs ─────────────────────────────────────
+*.log
+logs/
