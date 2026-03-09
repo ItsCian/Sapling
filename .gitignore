@@ -1,0 +1,95 @@
+# ─────────────────────────────────────────────
+# Rust / Backend
+# ─────────────────────────────────────────────
+backend/target/
+backend/**/*.rs.bk
+backend/Cargo.lock
+**/*.pdb
+
+# ─────────────────────────────────────────────
+# React Native / Mobile
+# ─────────────────────────────────────────────
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/build/
+mobile/.cache/
+mobile/android/
+mobile/ios/
+mobile/*.jks
+mobile/*.p8
+mobile/*.p12
+mobile/*.key
+mobile/*.mobileprovision
+mobile/*.orig.*
+mobile/web-build/
+mobile/.metro-health-check*
+
+# ─────────────────────────────────────────────
+# Environment variables
+# ─────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.development
+.env.staging
+.env.production
+!.env.example
+
+# ─────────────────────────────────────────────
+# Docker
+# ─────────────────────────────────────────────
+infra/docker/.env
+docker-compose.override.yml
+
+# ─────────────────────────────────────────────
+# Kubernetes / Infra
+# ─────────────────────────────────────────────
+infra/k8s/**/secret.yaml
+infra/terraform/.terraform/
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.backup
+infra/terraform/*.tfvars
+!infra/terraform/*.tfvars.example
+
+# ─────────────────────────────────────────────
+# IDEs & editors
+# ─────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.history/
+
+# ─────────────────────────────────────────────
+# OS
+# ─────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ─────────────────────────────────────────────
+# Logs
+# ─────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+
+# ─────────────────────────────────────────────
+# Misc
+# ─────────────────────────────────────────────
+*.orig
+*.bak
+*.tmp
